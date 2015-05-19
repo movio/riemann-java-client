@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	       xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.aphyr</groupId>
+	<groupId>co.movio</groupId>
 	<artifactId>riemann-java-client</artifactId>
-  <version>0.3.1</version>
+  <version>0.3.2</version>
 	<packaging>bundle</packaging>
 	<name>Riemann Java Client</name>
 	<description>Java client for http://aphyr.github.com/riemann/</description>
@@ -172,9 +172,9 @@
 
   <distributionManagement>
     <repository>
-      <id>clojars</id>
-      <name>Clojars</name>
-      <url>https://clojars.org/repo</url>
+      <id>artifactory</id>
+      <name>libs-release-local</name>
+      <url>https://artifactory.movio.co/artifactory/libs-release-local/</url>
     </repository>
   </distributionManagement>
 </project>
